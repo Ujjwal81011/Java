@@ -3,12 +3,12 @@ class Pen{ //class
     String brand;
 
     public void write(){ // methor or function
-        System.err.println("pen is use for writting");
+        System.out.println("pen is use for writting");
     }
 
     public void display(){ //method or function
         System.out.println("color is "+color);
-        System.out.println(this.brand); // this tells it that which object cis calling this function
+        System.out.println(this.brand); // this tells it that which object is calling this function
     }
 }
 public class obj{ //class
